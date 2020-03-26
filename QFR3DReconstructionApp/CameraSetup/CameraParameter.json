@@ -1,0 +1,47 @@
+{
+    "NumberOfCamera" : 2,
+    "Camera1": {
+        "CameraName": "Camera1",
+        "IntrinsicParameter": {
+            "FocalLengthx": 500,
+            "FocalLengthy": 500,
+            "ResolutionU": 500,
+            "ResolutionV": 500,
+            "LengthPerPixelx": 1.0e-3,
+            "LengthPerPixely": 1.0e-3,
+            "units" : "meter"
+      },
+        "ExtrinsicParameter": {
+            "ThetaX" : -10.0,
+            "ThetaY" : -10,
+            "ThetaZ" : -10,
+            "DeltaX" : 0.0,
+            "DeltaY" : 0.0,
+            "DeltaZ" : -0.1,
+            "units" : "degree"
+        },
+        "imagePath": "C:\\Users\\Think\\Desktop\\DSA\\QFRQtProject\\QFR3DReconstructionApp\\CameraSetup\\VesselFromCamera1.png"
+    },
+    "Camera2": {
+        "CameraName": "Camera2",
+        "IntrinsicParameter": {
+            "FocalLengthx": 500,
+            "FocalLengthy": 500,
+            "ResolutionU": 500,
+            "ResolutionV": 500,
+            "LengthPerPixelx": 1.0e-3,
+            "LengthPerPixely": 1.0e-3,
+            "units": "meter"
+      },
+        "ExtrinsicParameter": {
+            "ThetaX" : 10.0,
+            "ThetaY" : 10.0,
+            "ThetaZ" : 10.0,
+            "DeltaX" : -0.0,
+            "DeltaY" : -0.0,
+            "DeltaZ" : -0.1,
+            "units" : "degree"
+        },
+        "imagePath": "C:\\Users\\Think\\Desktop\\DSA\\QFRQtProject\\QFR3DReconstructionApp\\CameraSetup\\VesselFromCamera2.png"
+    }
+}
